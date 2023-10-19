@@ -1,0 +1,59 @@
+/* DataGrid.css */
+
+.data-grid {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.data-grid th,
+.data-grid td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.data-grid th {
+  background-color: #f2f2f2;
+}
+
+.data-grid tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.data-grid tbody tr:hover {
+  background-color: #ddd;
+}
+
+.data-grid button {
+  background-color: #ff5555;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.data-grid button:hover {
+  background-color: #ff3333;
+}
+
+.input-container {
+  margin-top: 20px;
+}
+
+.input-container input {
+  margin-right: 10px;
+  padding: 8px;
+}
+
+.input-container button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.input-container button:hover {
+  background-color: #45a049;
+}
